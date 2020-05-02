@@ -1,10 +1,6 @@
-# SCME-Webpage
+# SCME-Webpage : First version of the Website of SCME.
 
-
-##First version of the Website of SCME.
-
-
-###  This is the first version of the Website of Student Council of Mechanical Engineers, Indian Institute of Tevhmology Patna.
+###  This is the first version of the Website of Student Council of Mechanical Engineers, Indian Institute of Technology Patna.
 ###  HTML 5, CSS, Bootstrap and Javascript has been used for developing this Wepsite. This project has been jointly done by :
 
 ##### Harshit Singh
