@@ -1,4 +1,3 @@
-
 body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -69,17 +68,20 @@ hr {
 #menu {
 	padding: 15px;
 	transition: all 0.8s;
+	background-color:#e3f2fd;
 }
 #menu.navbar-default {
-	background-color: #fff;
+	background-color: #60BF00;
 	border-color: rgba(231, 231, 231, 0);
-	box-shadow: 0 0 10px rgba(0,0,0,0.15)
+	box-shadow: 0 0 10px rgba(0,,0,0.15)
+
 }
 #menu a.navbar-brand {
-	font-family: 'Raleway', sans-serif;
-	font-size: 24px;
-	font-weight: 700;
-	color: #333;
+	font-family: 'Roboto', sans-serif;
+font-family: 'Monoton', cursive;
+	font-size: 3.5em;
+	font-weight: 500;
+	color: #B12E2E;
 	text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
@@ -194,12 +196,18 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	padding-top: 20%;
 	padding-bottom: 20%;
 }
-.main_text
+.main_text h1
 {
 	text-align: center;
 
 	color: #ccc;
-	font-family: 'Black Ops One';
+
+	font-family: 'CirqueeRegular';
+  font-weight: normal;
+	font-size: 5.0em;
+
+
+
 
 }
 .banner{
@@ -216,13 +224,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	padding-right : 0%;
 
 
+
 	position: relative;
 }
 
 .about-text p
 {
 	align-content: center;
-	font-size:1em;
+	font-size:2.0em;
 }
 
 #about
@@ -265,9 +274,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	padding: 15px 60px 15px 60px;
 	margin: 10px;
 	border-radius: 30px;
-	color: #000;
+	color: #fff;
 	border:2px solid #000;
-	background: transparent;
+	background-color: #504E4E;
 	font-size: 16px;
 }
 .btn:focus
