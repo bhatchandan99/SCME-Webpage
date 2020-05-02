@@ -395,6 +395,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   padding: 25px;
   text-align: left;
 }
+.circular--square {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
 .tabgroup .text-content h4 {
 	font-size: 17px;
 	font-weight: 500;
@@ -426,7 +432,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 #contact
 {
-	height: 92%;
+	height: 60%;
 	padding-top: 2em;
 	background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0));
 
@@ -478,7 +484,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 .wrapper section.our-team .my-claint .item img {
-    width: 155px;
+    width: 80px;
     margin: 0 auto;
     opacity: 0.3;
 }
@@ -511,7 +517,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 .wrapper section.our-team .my-claint .owl-item.active.center .item img {
-    width: 200px;
+    width: 120px;
     opacity: 1;
 }
 
