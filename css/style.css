@@ -188,6 +188,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 #header
 {
+
 	height: 100%;
 	background: linear-gradient(rgba(0,0,0,1.9),rgba(0,0,0,0.7)),url(../img/mainback.jpg);
 	background-position: center;
@@ -198,6 +199,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .main_text h1
 {
+	position: relative;
 	text-align: center;
 
 	color: #ccc;
@@ -216,50 +218,36 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	min-height: 580px;
     position: relative;
 }
-.about-text
-{
-	padding-top: 0;
-	margin-left: 10%;
-	margin-right: 10%;
-	padding-right : 0%;
 
 
+
+
+.dude{
 
 	position: relative;
-}
+	text-align: center;
 
-
-
-#about
-{
-	height: 100%;
-	display: block;
-	padding-top: 1%;
-
-	color:#000;
-}
-.about-text p
-{
-	font-size:1.1em;
 
 }
-
-
-.about-text h3
+.dude h3
 {
-	font-size: 2.0em;
 	font-family: 'Black Ops One';
-	align-content: center;
-
 	color:#566;
+	font-size:3.0em;
+
+
 }
-.about-img
+.dude p
 {
-	height: 280px;
-	float: left;
-	margin-left: 5%;
-	margin-right: 5%;
+
+	font-size:1.5em;
+
+
 }
+
+
+
+
 .bt
 {
 	padding: 10px;
@@ -291,6 +279,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* Events */
 #events
 {
+
 	height: 100%;
 	padding-top: 2em;
 	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),#5FCF80;
