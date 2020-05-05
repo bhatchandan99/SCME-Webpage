@@ -189,7 +189,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #header
 {
 
-	height: 100%;
+	height: 100vh;
 	background: linear-gradient(rgba(0,0,0,1.9),rgba(0,0,0,0.7)),url(../img/mainback.jpg);
 	background-position: center;
 	background-size: cover;
@@ -206,22 +206,29 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 	font-family: 'CirqueeRegular';
   font-weight: normal;
-	font-size: 3.0em;
-
-
-
-
+	font-size: 8vh;
 }
+
 .banner{
 	background: url('../img/mainback.jpg') no-repeat center top;
     background-size: cover;
 	min-height: 580px;
     position: relative;
+
 }
 
 
-
-
+#about{
+	padding: 4vh; 
+}
+@media only screen and (min-width: 1300px) 
+{
+	#about
+	{
+		height: 95%;
+		padding: 4vh; 
+	}
+}
 .dude{
 
 	position: relative;
@@ -231,6 +238,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .dude h3
 {
+	padding: 10px;
 	font-family: 'Black Ops One';
 	color:#566;
 	font-size:3.0em;
@@ -280,9 +288,15 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #events
 {
 
-	height: 100%;
-	padding-top: 2em;
+	padding: 4vh;
 	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),#5FCF80;
+}
+@media only screen and (min-width: 1300px) 
+{
+	#events
+	{
+		height: 95%;
+	}
 }
 .header-section
 {
@@ -293,9 +307,16 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 #activity
 {
-	height: 92%;
+	padding: 4vh;	
 	text-align: center;
 	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url(../img/course05.jpg);
+}
+@media only screen and (min-width: 1300px) 
+{
+	#activity
+	{
+		height: 95%;
+	}
 }
 #activity p
 {
@@ -419,10 +440,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #contact
 {
 	height: 60%;
-	padding-top: 2em;
+	padding: 4vh;
 	background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0));
 
 }
+
 .wrapper section.our-team {
 
     margin-bottom: 50px;
