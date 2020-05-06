@@ -101,7 +101,7 @@ font-family: 'Monoton', cursive;
 	bottom: -1px;
 	width: 0;
 	height: 2px;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #ffab44 0%, #ff7263 100%);
 	content: "";
 	transition: width 0.2s;
 }
@@ -109,6 +109,7 @@ font-family: 'Monoton', cursive;
 	width: 100%;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+
 	background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a:after, .navbar-default .navbar-nav > .active > a:hover:after, .navbar-default .navbar-nav > .active > a:focus:after {
@@ -118,9 +119,10 @@ font-family: 'Monoton', cursive;
 	bottom: -1px !important;
 	width: 100% !important;
 	height: 2px !important;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+	background: linear-gradient(to right, #ffab44 0%, #ff7263 100%) !important;
 	content: "" !important;
 	transition: width 0.2s !important;
+	background-color: #fff;
 }
 .navbar-toggle {
 	border-radius: 0;
@@ -169,21 +171,7 @@ font-family: 'Monoton', cursive;
 	transition: all 0.5s linear;
 	border: 0;
 }
-.btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
-	color: #fff;
-	background-image: none;
-	background-color: #6372ff;
-}
-.btn:active, .btn.active {
-	background-image: none;
-	outline: 0;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-}
-a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
-	outline: none;
-	outline-offset: none;
-}
+
 
 
 #header
@@ -279,7 +267,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .btn:hover
 {
 	border: 2px solid #000 !important;
-	background: #000 !important;
+	background: #fff !important;
 	color:#fff;
 	font-size: 18px;
 	transition: 0.2s;
