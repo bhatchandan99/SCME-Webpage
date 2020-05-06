@@ -298,6 +298,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 		height: 95%;
 	}
 }
+#events p
+{
+	font-size: 1.5vh;
+}
 .header-section
 {
 	color: #fff;
